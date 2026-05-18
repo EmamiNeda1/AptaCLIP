@@ -15,8 +15,8 @@ import argparse
             "triplet_output": cosine_triplet_loss(0.3)
         },
         loss_weights={
-            "interaction": 2.0,
-            "triplet_output": 2.0
+            "interaction": 1.0,
+            "triplet_output": 1.0
         },
         metrics={
             "interaction": [
