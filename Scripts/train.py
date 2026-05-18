@@ -26,7 +26,7 @@ import argparse
         callbacks=[
             keras.callbacks.EarlyStopping(
                 monitor="val_loss",
-                patience=30,
+                patience=20,
                 restore_best_weights=True
             )
         ]
